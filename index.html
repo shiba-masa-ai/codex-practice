@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Web制作を勉強中の山田花子の自己紹介サイトです。"
+    />
+    <title>山田 花子 | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="トップへ戻る">HANAKO<span>.</span></a>
+      <nav aria-label="メインナビゲーション">
+        <ul class="nav-list">
+          <li><a href="#about">わたしについて</a></li>
+          <li><a href="#favorites">好きなこと</a></li>
+          <li><a href="#contact">コンタクト</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-decoration decoration-one" aria-hidden="true"></div>
+        <div class="hero-decoration decoration-two" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">HELLO, NICE TO MEET YOU!</p>
+          <h1 id="hero-title">
+            はじめまして、<br />
+            <span>山田 花子</span>です。
+          </h1>
+          <p class="hero-copy">
+            東京でWeb制作を勉強しています。<br />
+            人の気持ちがちょっと明るくなるような、やさしいデザインが好きです。
+          </p>
+          <a class="button" href="#about">もっと知る <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="profile-visual" aria-label="山田花子のイメージイラスト">
+          <div class="profile-circle">
+            <span class="profile-initials" aria-hidden="true">H</span>
+            <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+            <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+          </div>
+          <p class="profile-note">DESIGN &amp; CODING</p>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="section-heading">
+          <p class="section-number">01</p>
+          <div>
+            <p class="section-en">ABOUT ME</p>
+            <h2>わたしについて</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              こんにちは！山田花子です。大学でデザインを学びながら、HTMLとCSSを使ったWebサイト制作に夢中になっています。
+            </p>
+            <p>
+              まだ勉強中ですが、ひとつずつ「できた！」を増やしているところです。いつか、誰かの想いを素敵に届けられるWebデザイナーになることが目標です。
+            </p>
+          </div>
+          <dl class="profile-list">
+            <div>
+              <dt>名前</dt>
+              <dd>山田 花子</dd>
+            </div>
+            <div>
+              <dt>住んでいるところ</dt>
+              <dd>東京都</dd>
+            </div>
+            <div>
+              <dt>勉強中</dt>
+              <dd>HTML / CSS / デザイン</dd>
+            </div>
+            <div>
+              <dt>好きな言葉</dt>
+              <dd>小さな一歩を楽しむ</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="favorites" class="section favorites-section">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <div>
+            <p class="section-en">MY FAVORITES</p>
+            <h2>好きなこと</h2>
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <article class="favorite-card card-pink">
+            <div class="card-icon" aria-hidden="true">☕</div>
+            <p class="card-label">COFFEE</p>
+            <h3>カフェめぐり</h3>
+            <p>休日は居心地のいいカフェを探して、おいしいコーヒーを楽しみます。</p>
+          </article>
+          <article class="favorite-card card-blue">
+            <div class="card-icon" aria-hidden="true">📷</div>
+            <p class="card-label">PHOTO</p>
+            <h3>写真を撮ること</h3>
+            <p>街で見つけた素敵な色や、季節の風景をカメラに残すのが好きです。</p>
+          </article>
+          <article class="favorite-card card-yellow">
+            <div class="card-icon" aria-hidden="true">🎧</div>
+            <p class="card-label">MUSIC</p>
+            <h3>音楽を聴くこと</h3>
+            <p>作業中はお気に入りのプレイリストを流して、楽しく集中しています。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-inner">
+          <p class="section-en">CONTACT</p>
+          <h2>お話ししませんか？</h2>
+          <p>サイトを見てくださり、ありがとうございます。<br />お気軽にメッセージを送ってください！</p>
+          <a class="button button-light" href="mailto:hanako@example.com">メールを送る <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="logo footer-logo" href="#top">HANAKO<span>.</span></a>
+      <p><small>© 2026 Hanako Yamada</small></p>
+    </footer>
+  </body>
+</html>
